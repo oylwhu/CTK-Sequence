@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_kkgsMBeLEd60N8ipLbB6nA" name="UML Sequence Diagram substract signal">
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_91U7oNfIEemBv7tbVw8FvA" name="插件管理"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_91bCQNfIEemBv7tbVw8FvA" name="订阅者插件">
+    <ownedComment xmi:id="_91degNfIEemBv7tbVw8FvA">
+      <body>start</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_91prwNfIEemBv7tbVw8FvA" name="ctkPluginFramework"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_91wZcNfIEemBv7tbVw8FvA" name="发布者插件">
+    <ownedComment xmi:id="_91xAgNfIEemBv7tbVw8FvA">
+      <body>start</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_913HINfIEemBv7tbVw8FvA" name="eventadmin插件">
+    <ownedComment xmi:id="_914VQNfIEemBv7tbVw8FvA">
+      <body>start</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_91-b4NfIEemBv7tbVw8FvA" name="handleEvent实现"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_92bu4NfIEemBv7tbVw8FvA" name="发布订阅-基于信号槽">
+    <ownedAttribute xmi:id="_9-dpgNfIEemBv7tbVw8FvA" name="" type="_92bu4NfIEemBv7tbVw8FvA"/>
+    <lifeline xmi:id="_980DsNfIEemBv7tbVw8FvA" name="发布订阅-基于信号槽" represents="_9-dpgNfIEemBv7tbVw8FvA"/>
+    <lifeline xmi:id="_9_K0INfIEemBv7tbVw8FvA" name="插件管理" coveredBy="_-F5HMNfIEemBv7tbVw8FvA _-GEtYNfIEemBv7tbVw8FvA _-GWaMNfIEemBv7tbVw8FvA _-H55YNfIEemBv7tbVw8FvA _-IE4gNfIEemBv7tbVw8FvA _-IZooNfIEemBv7tbVw8FvA"/>
+    <lifeline xmi:id="_9_PFkNfIEemBv7tbVw8FvA" name="订阅者插件" coveredBy="_-BH78NfIEemBv7tbVw8FvA _-Bl2ANfIEemBv7tbVw8FvA _-EKo4NfIEemBv7tbVw8FvA _-EcVsNfIEemBv7tbVw8FvA _-FxycNfIEemBv7tbVw8FvA _-GMCINfIEemBv7tbVw8FvA">
+      <ownedComment xmi:id="_9_Q6wNfIEemBv7tbVw8FvA">
+        <body>start</body>
+      </ownedComment>
+    </lifeline>
+    <lifeline xmi:id="_9_UlINfIEemBv7tbVw8FvA" name="ctkPluginFramework" coveredBy="_-B1GkNfIEemBv7tbVw8FvA _-CVc4NfIEemBv7tbVw8FvA _-DQp8NfIEemBv7tbVw8FvA _-DxnUNfIEemBv7tbVw8FvA _-Fb0MNfIEemBv7tbVw8FvA _-FjwANfIEemBv7tbVw8FvA _-GrxYNfIEemBv7tbVw8FvA _-G2wgNfIEemBv7tbVw8FvA"/>
+    <lifeline xmi:id="_9_arwNfIEemBv7tbVw8FvA" name="发布者插件" coveredBy="_-A4EUNfIEemBv7tbVw8FvA _-C7SwNfIEemBv7tbVw8FvA _-HUqkNfIEemBv7tbVw8FvA _-HkiMNfIEemBv7tbVw8FvA _-IK_INfIEemBv7tbVw8FvA _-IUJENfIEemBv7tbVw8FvA">
+      <ownedComment xmi:id="_9_b54NfIEemBv7tbVw8FvA">
+        <body>start</body>
+      </ownedComment>
+    </lifeline>
+    <lifeline xmi:id="_9_fkQNfIEemBv7tbVw8FvA" name="eventadmin插件" coveredBy="_-Aqo8NfIEemBv7tbVw8FvA _-BRF4NfIEemBv7tbVw8FvA _-BfvYNfIEemBv7tbVw8FvA _-CAswNfIEemBv7tbVw8FvA _-CPWQNfIEemBv7tbVw8FvA _-CkGYNfIEemBv7tbVw8FvA _-CsCMNfIEemBv7tbVw8FvA _-DCAcNfIEemBv7tbVw8FvA _-EAQ0NfIEemBv7tbVw8FvA _-EjDYNfIEemBv7tbVw8FvA _-E3zgNfIEemBv7tbVw8FvA _-FGdANfIEemBv7tbVw8FvA _-Ge9ENfIEemBv7tbVw8FvA _-GpVINfIEemBv7tbVw8FvA _-G8QENfIEemBv7tbVw8FvA _-HMuwNfIEemBv7tbVw8FvA _-Hr28NfIEemBv7tbVw8FvA _-H0Z0NfIEemBv7tbVw8FvA">
+      <ownedComment xmi:id="_9_inkNfIEemBv7tbVw8FvA">
+        <body>start</body>
+      </ownedComment>
+    </lifeline>
+    <lifeline xmi:id="_9_mR8NfIEemBv7tbVw8FvA" name="handleEvent实现" coveredBy="_-DZz4NfIEemBv7tbVw8FvA _-DpEcNfIEemBv7tbVw8FvA _-Exs4NfIEemBv7tbVw8FvA _-FNxwNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-Aqo8NfIEemBv7tbVw8FvA" name="事件发布完成_src" covered="_9_fkQNfIEemBv7tbVw8FvA" message="_-Ag38NfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-A4EUNfIEemBv7tbVw8FvA" name="事件发布完成_dst" covered="_9_arwNfIEemBv7tbVw8FvA" message="_-Ag38NfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-BH78NfIEemBv7tbVw8FvA" name="处理完成_src" covered="_9_PFkNfIEemBv7tbVw8FvA" message="_-BBOQNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-BRF4NfIEemBv7tbVw8FvA" name="处理完成_dst" covered="_9_fkQNfIEemBv7tbVw8FvA" message="_-BBOQNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-BfvYNfIEemBv7tbVw8FvA" name="订阅者处理函数_src" covered="_9_fkQNfIEemBv7tbVw8FvA" message="_-BYaoNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-Bl2ANfIEemBv7tbVw8FvA" name="订阅者处理函数_dst" covered="_9_PFkNfIEemBv7tbVw8FvA" message="_-BYaoNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-B1GkNfIEemBv7tbVw8FvA" name="返回符合主题的对象_src" covered="_9_UlINfIEemBv7tbVw8FvA" message="_-Btx0NfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-CAswNfIEemBv7tbVw8FvA" name="返回符合主题的对象_dst" covered="_9_fkQNfIEemBv7tbVw8FvA" message="_-Btx0NfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-CPWQNfIEemBv7tbVw8FvA" name="getServiceReference_src" covered="_9_fkQNfIEemBv7tbVw8FvA" message="_-CHacNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-CVc4NfIEemBv7tbVw8FvA" name="getServiceReference_dst" covered="_9_UlINfIEemBv7tbVw8FvA" message="_-CHacNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-CkGYNfIEemBv7tbVw8FvA" name="sendEvent_src" covered="_9_fkQNfIEemBv7tbVw8FvA" message="_-CcxoNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-CsCMNfIEemBv7tbVw8FvA" name="sendEvent_dst" covered="_9_fkQNfIEemBv7tbVw8FvA" message="_-CcxoNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-C7SwNfIEemBv7tbVw8FvA" name="发射事件信号_src" covered="_9_arwNfIEemBv7tbVw8FvA" message="_-Cz-ANfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-DCAcNfIEemBv7tbVw8FvA" name="发射事件信号_dst" covered="_9_fkQNfIEemBv7tbVw8FvA" message="_-Cz-ANfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-DQp8NfIEemBv7tbVw8FvA" name="注册完成_src" covered="_9_UlINfIEemBv7tbVw8FvA" message="_-DJ8QNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-DZz4NfIEemBv7tbVw8FvA" name="注册完成_dst" covered="_9_mR8NfIEemBv7tbVw8FvA" message="_-DJ8QNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-DpEcNfIEemBv7tbVw8FvA" name="registerService_src" covered="_9_mR8NfIEemBv7tbVw8FvA" message="_-DiWwNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-DxnUNfIEemBv7tbVw8FvA" name="registerService_dst" covered="_9_UlINfIEemBv7tbVw8FvA" message="_-DiWwNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-EAQ0NfIEemBv7tbVw8FvA" name="connect_src" covered="_9_fkQNfIEemBv7tbVw8FvA" message="_-D48ENfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-EKo4NfIEemBv7tbVw8FvA" name="connect_dst" covered="_9_PFkNfIEemBv7tbVw8FvA" message="_-D48ENfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-EcVsNfIEemBv7tbVw8FvA" name="subscribeSlot_src" covered="_9_PFkNfIEemBv7tbVw8FvA" message="_-EUZ4NfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-EjDYNfIEemBv7tbVw8FvA" name="subscribeSlot_dst" covered="_9_fkQNfIEemBv7tbVw8FvA" message="_-EUZ4NfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-Exs4NfIEemBv7tbVw8FvA" name="返回对象_src" covered="_9_mR8NfIEemBv7tbVw8FvA" message="_-Eq_MNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-E3zgNfIEemBv7tbVw8FvA" name="返回对象_dst" covered="_9_fkQNfIEemBv7tbVw8FvA" message="_-Eq_MNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-FGdANfIEemBv7tbVw8FvA" name="create_src" covered="_9_fkQNfIEemBv7tbVw8FvA" message="_-E_vUNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-FNxwNfIEemBv7tbVw8FvA" name="create_dst" covered="_9_mR8NfIEemBv7tbVw8FvA" message="_-E_vUNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-Fb0MNfIEemBv7tbVw8FvA" name="init_src" covered="_9_UlINfIEemBv7tbVw8FvA" message="_-FVGgNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-FjwANfIEemBv7tbVw8FvA" name="init_dst" covered="_9_UlINfIEemBv7tbVw8FvA" message="_-FVGgNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-FxycNfIEemBv7tbVw8FvA" name="启动完成_src" covered="_9_PFkNfIEemBv7tbVw8FvA" message="_-FrEwNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-F5HMNfIEemBv7tbVw8FvA" name="启动完成_dst" covered="_9_K0INfIEemBv7tbVw8FvA" message="_-FrEwNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-GEtYNfIEemBv7tbVw8FvA" name="start_src" covered="_9_K0INfIEemBv7tbVw8FvA" message="_-F9_sNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-GMCINfIEemBv7tbVw8FvA" name="start_dst" covered="_9_PFkNfIEemBv7tbVw8FvA" message="_-F9_sNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-GWaMNfIEemBv7tbVw8FvA" name="start_src" covered="_9_K0INfIEemBv7tbVw8FvA" message="_-GT98NfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-Ge9ENfIEemBv7tbVw8FvA" name="start_dst" covered="_9_fkQNfIEemBv7tbVw8FvA" message="_-GT98NfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-GpVINfIEemBv7tbVw8FvA" name="registerService_src" covered="_9_fkQNfIEemBv7tbVw8FvA" message="_-Gm44NfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-GrxYNfIEemBv7tbVw8FvA" name="registerService_dst" covered="_9_UlINfIEemBv7tbVw8FvA" message="_-Gm44NfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-G2wgNfIEemBv7tbVw8FvA" name="注册完成_src" covered="_9_UlINfIEemBv7tbVw8FvA" message="_-G0UQNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-G8QENfIEemBv7tbVw8FvA" name="注册完成_dst" covered="_9_fkQNfIEemBv7tbVw8FvA" message="_-G0UQNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-HMuwNfIEemBv7tbVw8FvA" name="时间发布完成_src" covered="_9_fkQNfIEemBv7tbVw8FvA" message="_-HEL4NfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-HUqkNfIEemBv7tbVw8FvA" name="时间发布完成_dst" covered="_9_arwNfIEemBv7tbVw8FvA" message="_-HEL4NfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-HkiMNfIEemBv7tbVw8FvA" name="publishSignal_src" covered="_9_arwNfIEemBv7tbVw8FvA" message="_-Hd0gNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-Hr28NfIEemBv7tbVw8FvA" name="publishSignal_dst" covered="_9_fkQNfIEemBv7tbVw8FvA" message="_-Hd0gNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-H0Z0NfIEemBv7tbVw8FvA" name="启动完成_src" covered="_9_fkQNfIEemBv7tbVw8FvA" message="_-Hx9kNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-H55YNfIEemBv7tbVw8FvA" name="启动完成_dst" covered="_9_K0INfIEemBv7tbVw8FvA" message="_-Hx9kNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-IE4gNfIEemBv7tbVw8FvA" name="start_src" covered="_9_K0INfIEemBv7tbVw8FvA" message="_-ICcQNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-IK_INfIEemBv7tbVw8FvA" name="start_dst" covered="_9_arwNfIEemBv7tbVw8FvA" message="_-ICcQNfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-IUJENfIEemBv7tbVw8FvA" name="启动完成_src" covered="_9_arwNfIEemBv7tbVw8FvA" message="_-IST4NfIEemBv7tbVw8FvA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-IZooNfIEemBv7tbVw8FvA" name="启动完成_dst" covered="_9_K0INfIEemBv7tbVw8FvA" message="_-IST4NfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-Ag38NfIEemBv7tbVw8FvA" name="事件发布完成" messageSort="reply" receiveEvent="_-A4EUNfIEemBv7tbVw8FvA" sendEvent="_-Aqo8NfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-BBOQNfIEemBv7tbVw8FvA" name="处理完成" messageSort="reply" receiveEvent="_-BRF4NfIEemBv7tbVw8FvA" sendEvent="_-BH78NfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-BYaoNfIEemBv7tbVw8FvA" name="订阅者处理函数" messageSort="createMessage" receiveEvent="_-Bl2ANfIEemBv7tbVw8FvA" sendEvent="_-BfvYNfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-Btx0NfIEemBv7tbVw8FvA" name="返回符合主题的对象" messageSort="reply" receiveEvent="_-CAswNfIEemBv7tbVw8FvA" sendEvent="_-B1GkNfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-CHacNfIEemBv7tbVw8FvA" name="getServiceReference" messageSort="createMessage" receiveEvent="_-CVc4NfIEemBv7tbVw8FvA" sendEvent="_-CPWQNfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-CcxoNfIEemBv7tbVw8FvA" name="sendEvent" messageSort="createMessage" receiveEvent="_-CsCMNfIEemBv7tbVw8FvA" sendEvent="_-CkGYNfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-Cz-ANfIEemBv7tbVw8FvA" name="发射事件信号" messageSort="createMessage" receiveEvent="_-DCAcNfIEemBv7tbVw8FvA" sendEvent="_-C7SwNfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-DJ8QNfIEemBv7tbVw8FvA" name="注册完成" messageSort="reply" receiveEvent="_-DZz4NfIEemBv7tbVw8FvA" sendEvent="_-DQp8NfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-DiWwNfIEemBv7tbVw8FvA" name="registerService" messageSort="createMessage" receiveEvent="_-DxnUNfIEemBv7tbVw8FvA" sendEvent="_-DpEcNfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-D48ENfIEemBv7tbVw8FvA" name="connect" messageSort="reply" receiveEvent="_-EKo4NfIEemBv7tbVw8FvA" sendEvent="_-EAQ0NfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-EUZ4NfIEemBv7tbVw8FvA" name="subscribeSlot" messageSort="createMessage" receiveEvent="_-EjDYNfIEemBv7tbVw8FvA" sendEvent="_-EcVsNfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-Eq_MNfIEemBv7tbVw8FvA" name="返回对象" messageSort="reply" receiveEvent="_-E3zgNfIEemBv7tbVw8FvA" sendEvent="_-Exs4NfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-E_vUNfIEemBv7tbVw8FvA" name="create" messageSort="createMessage" receiveEvent="_-FNxwNfIEemBv7tbVw8FvA" sendEvent="_-FGdANfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-FVGgNfIEemBv7tbVw8FvA" name="init" messageSort="createMessage" receiveEvent="_-FjwANfIEemBv7tbVw8FvA" sendEvent="_-Fb0MNfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-FrEwNfIEemBv7tbVw8FvA" name="启动完成" messageSort="reply" receiveEvent="_-F5HMNfIEemBv7tbVw8FvA" sendEvent="_-FxycNfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-F9_sNfIEemBv7tbVw8FvA" name="start" messageSort="createMessage" receiveEvent="_-GMCINfIEemBv7tbVw8FvA" sendEvent="_-GEtYNfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-GT98NfIEemBv7tbVw8FvA" name="start" messageSort="createMessage" receiveEvent="_-Ge9ENfIEemBv7tbVw8FvA" sendEvent="_-GWaMNfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-Gm44NfIEemBv7tbVw8FvA" name="registerService" messageSort="createMessage" receiveEvent="_-GrxYNfIEemBv7tbVw8FvA" sendEvent="_-GpVINfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-G0UQNfIEemBv7tbVw8FvA" name="注册完成" messageSort="reply" receiveEvent="_-G8QENfIEemBv7tbVw8FvA" sendEvent="_-G2wgNfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-HEL4NfIEemBv7tbVw8FvA" name="时间发布完成" messageSort="reply" receiveEvent="_-HUqkNfIEemBv7tbVw8FvA" sendEvent="_-HMuwNfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-Hd0gNfIEemBv7tbVw8FvA" name="publishSignal" messageSort="createMessage" receiveEvent="_-Hr28NfIEemBv7tbVw8FvA" sendEvent="_-HkiMNfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-Hx9kNfIEemBv7tbVw8FvA" name="启动完成" messageSort="reply" receiveEvent="_-H55YNfIEemBv7tbVw8FvA" sendEvent="_-H0Z0NfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-ICcQNfIEemBv7tbVw8FvA" name="start" messageSort="createMessage" receiveEvent="_-IK_INfIEemBv7tbVw8FvA" sendEvent="_-IE4gNfIEemBv7tbVw8FvA"/>
+    <message xmi:id="_-IST4NfIEemBv7tbVw8FvA" name="启动完成" messageSort="reply" receiveEvent="_-IZooNfIEemBv7tbVw8FvA" sendEvent="_-IUJENfIEemBv7tbVw8FvA"/>
+  </packagedElement>
+</uml:Model>
